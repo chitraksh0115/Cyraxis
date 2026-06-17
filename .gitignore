@@ -1,0 +1,32 @@
+# ==============================================================================
+# CYRAXIS CORE SECURITY BARRIER (.gitignore)
+# ==============================================================================
+
+# Cryptographic Vault / Secret API Keys
+.env
+.env.local
+*.env
+
+# Local Telemetry Databases, Logs & Audio Trails
+*.db
+*.db-wal
+*.db-shm
+*.log
+telemetry_audit/
+
+# Python Compilation & Optimization Caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local Python Isolation Sandboxes (Virtual Environments)
+venv/
+.venv/
+env/
+ENV/
+
+# System-Level Junk Files (OS Specific)
+.DS_Store
+Thumbs.db
