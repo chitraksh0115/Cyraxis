@@ -39,7 +39,7 @@ def ask(
         prompt: str,
         system: str ="You are Cyraxis, an autonomous AI safety research agent. "
                      "Be precise, honest, and cite your reasoning.",
-        model: str="llama-3.3-70b-versatile", 
+        model: str="openai/gpt-oss-120b", 
         max_tokens: int=1024,           
 )->str:
     '''
